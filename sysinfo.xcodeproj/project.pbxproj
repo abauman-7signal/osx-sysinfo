@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9371015421FA52D900450399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371015321FA52D900450399 /* main.m */; };
+		9371015B21FA550900450399 /* PowerSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371015A21FA550900450399 /* PowerSourceInfo.m */; };
+		9371015E21FA7BE300450399 /* DisplayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371015D21FA7BE300450399 /* DisplayInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		9371015021FA52D800450399 /* sysinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sysinfo; sourceTree = BUILT_PRODUCTS_DIR; };
 		9371015321FA52D900450399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9371015A21FA550900450399 /* PowerSourceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerSourceInfo.m; sourceTree = "<group>"; };
+		9371015C21FA553000450399 /* PowerSourceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerSourceInfo.h; sourceTree = "<group>"; };
+		9371015D21FA7BE300450399 /* DisplayInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayInfo.m; sourceTree = "<group>"; };
+		9371015F21FA7BFC00450399 /* DisplayInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayInfo.h; sourceTree = "<group>"; };
+		9371016021FB47B000450399 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +48,7 @@
 		9371014721FA52D800450399 = {
 			isa = PBXGroup;
 			children = (
+				9371016021FB47B000450399 /* .gitignore */,
 				9371015221FA52D800450399 /* sysinfo */,
 				9371015121FA52D800450399 /* Products */,
 			);
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9371015321FA52D900450399 /* main.m */,
+				9371015A21FA550900450399 /* PowerSourceInfo.m */,
+				9371015C21FA553000450399 /* PowerSourceInfo.h */,
+				9371015D21FA7BE300450399 /* DisplayInfo.m */,
+				9371015F21FA7BFC00450399 /* DisplayInfo.h */,
 			);
 			path = sysinfo;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9371015B21FA550900450399 /* PowerSourceInfo.m in Sources */,
+				9371015E21FA7BE300450399 /* DisplayInfo.m in Sources */,
 				9371015421FA52D900450399 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +252,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
