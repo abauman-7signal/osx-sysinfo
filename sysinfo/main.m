@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "PowerSourceInfo.h"
 #import "DisplayInfo.h"
+#import "BoardInfo.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -20,6 +21,9 @@ int main(int argc, const char * argv[]) {
         
         DisplayInfo *displayInfo = [[DisplayInfo alloc] init];
         NSLog(@"power state: %i", displayInfo.getPowerState);
+        
+        BoardInfo *boardInfo = [[BoardInfo alloc] init];
+        NSLog(@"board id: %i", boardInfo.getBoardId);
 
         NSLog(@"Exiting program");
     }
