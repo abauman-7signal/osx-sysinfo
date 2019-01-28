@@ -10,6 +10,7 @@
 		9371015421FA52D900450399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371015321FA52D900450399 /* main.m */; };
 		9371015B21FA550900450399 /* PowerSourceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371015A21FA550900450399 /* PowerSourceInfo.m */; };
 		9371015E21FA7BE300450399 /* DisplayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371015D21FA7BE300450399 /* DisplayInfo.m */; };
+		9371016221FF8D1300450399 /* BoardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9371016121FF8D1300450399 /* BoardInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		9371015D21FA7BE300450399 /* DisplayInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayInfo.m; sourceTree = "<group>"; };
 		9371015F21FA7BFC00450399 /* DisplayInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayInfo.h; sourceTree = "<group>"; };
 		9371016021FB47B000450399 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		9371016121FF8D1300450399 /* BoardInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoardInfo.m; sourceTree = "<group>"; };
+		9371016321FF8D2200450399 /* BoardInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				9371015C21FA553000450399 /* PowerSourceInfo.h */,
 				9371015D21FA7BE300450399 /* DisplayInfo.m */,
 				9371015F21FA7BFC00450399 /* DisplayInfo.h */,
+				9371016121FF8D1300450399 /* BoardInfo.m */,
+				9371016321FF8D2200450399 /* BoardInfo.h */,
 			);
 			path = sysinfo;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			files = (
 				9371015B21FA550900450399 /* PowerSourceInfo.m in Sources */,
 				9371015E21FA7BE300450399 /* DisplayInfo.m in Sources */,
+				9371016221FF8D1300450399 /* BoardInfo.m in Sources */,
 				9371015421FA52D900450399 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

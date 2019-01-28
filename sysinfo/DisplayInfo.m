@@ -23,7 +23,6 @@
         char *propertyName = "IOPowerManagement";
         io_registry_entry_t displayWrangler = IORegistryEntryFromPath(kIOMasterPortDefault, "IOService:/IOResources/IODisplayWrangler");
         kern_return_t propertyValue = IORegistryEntryGetProperty(displayWrangler, propertyName, property, &length);
-        IORegistryE
         return -1;
     }
 
